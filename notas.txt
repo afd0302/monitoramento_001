@@ -1,0 +1,89 @@
+#------------------------------------------------------------------
+# PARA RESOLVER O PROBLEMA EM QUE O POWERSHELL IMPEDE A ATIVAÇÃO
+# DO AMBIENTE VIRTUAL:
+1: Abrir o PowerShell como Admin;
+2: Set-ExecutionPolicy RemoteSigned (confirmar com A, que salva para todo o computador)
+3: Reabrir o VS Code
+
+#------------------------------------------------------------------
+# PARA ATUALIZAR O PIP 
+# python.exe -m pip install --upgrade pip
+#------------------------------------------------------------------
+
+
+#------------------------------------------------------------------
+# PARA INSTALAR TODAS AS BIBLIOTECAS LISTAS EM requirements.txt
+# use o comando: pip install -r requirements.txt
+# Dica: para criar ou atualizar o arquivo requirements.txt use
+# o comando: pip freeze > requirements.txt
+#------------------------------------------------------------------
+# Mas, para instalar as bibliotecas uma a uma, segue uma lista de
+# comandos de instalão de cada biblioteca:
+#------------------------------------------------------------------
+
+pip install -U google-generativeai
+pip install PyPDF2
+pip install csv
+pip install base64
+pip install Pillow
+pip install easyocr
+pip install python-dotenv
+pip install streamlit
+pip install google-generativeai
+pip install google-api-core
+pip install Pillow
+
+pip install opencv-python
+pip install numpy
+pip install pyautogui
+python -m pip install pywin32
+pip install pyperclip
+pip install requests
+pip install SpeechRecognition
+pip install pyttsx3
+pip install PyAudio
+pip install setuptools
+pip install Pillow
+pip install wikipedia
+pip install pywhatkit
+pip install pyttsx3 pypiwin32
+playwright install
+pip install cx_Oracle
+
+#------------------------------------------------------------------
+# PARA CRIAR E ATIVAR E EXCLUIR UM AMBIENTE VIRTUAL PELO CMD
+#
+#Excluir: rmdir /s /q nome_do_ambiente
+#Criar: python -m venv nome_do_ambiente
+#Ativar: .\ambiente_virtual\Scripts\activate
+#Desativar: deactivate
+
+
+#------------------------------------------------------------------
+# PARA SUBIR PROJETO NO GIT
+#
+https://github.com/ederspvg/rpa_001
+
+
+git commit -m "Commit inicial do projeto"
+Crie o repositório no GitHub usando a interface do GitHub.
+git remote add origin https://github.com/ederspvg/nome_do_repositorio.git
+
+
+git init
+git add .
+git push -u origin main
+
+Após isso:
+Sua identidade
+A primeira coisa que você deve fazer ao instalar o Git é definir seu nome de usuário e endereço de e-mail. Isso é importante porque cada commit do Git usa essas informações, e elas são imutavelmente incorporadas aos commits que você começa a criar:
+
+git config --global user.name "ederspvg"
+git config --global user.email snaykron@gmail.com
+
+
+como usar um ambiente virtual (variaveis de ambiente virtual)
+import os
+from dotenv import load_dotenv
+load_dotenv(dotenv_path='ambiente.env')
+genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
