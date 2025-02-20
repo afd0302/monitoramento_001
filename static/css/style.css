@@ -1,0 +1,124 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://luft.com.br/wp-content/uploads/2023/11/xtransporte.jpg.pagespeed.ic.ou_dNtMvc4.webp'); /* Substitua pela URL da imagem desejada */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(23, 7, 241, 0.911); /* Transparência de 20% */
+}
+
+/* Faixa azul no topo */
+.header {
+    background-color: #4437f7; /* Azul */
+    color: white;
+    text-align: center;
+    padding: 0.1px 0; /* Aumentado o padding */
+    font-size: 30px; /* Aumentado o tamanho da fonte */
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Container principal */
+#container {
+    padding: 5x; /* Aumentado o padding */
+    max-width: 1440px; /* Aumentado a largura máxima (80% maior) */
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com transparência */
+    border-radius: 15px; /* Aumentado o raio das bordas */
+    box-shadow: 0 6px 15px rgba(87, 1, 226, 0.904); /* Sombra mais pronunciada */
+}
+
+/* Mapa */
+#map {
+    height: 1200px; /* Altura do mapa */
+    margin-bottom: 61px; /* Espaçamento abaixo do mapa */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Botão Cadastrar Link */
+#btn-cadastrar {
+    background-color: #0074D9;
+    color: white;
+    font-size: 20px; /* Aumentado o tamanho da fonte */
+    padding: 15px 30px; /* Aumentado o padding */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block; /* Garante que o botão ocupe a largura total */
+    margin: 0 auto 20px auto; /* Centralizado horizontalmente com espaçamento abaixo */
+    width: fit-content; /* Ajusta o tamanho do botão ao conteúdo */
+}
+
+#btn-cadastrar:hover {
+    background-color: #0056b3;
+}
+
+/* Lista de links */
+#lista-links {
+    margin-top: 30px;
+}
+
+.link-item {
+    display: flex;
+    justify-content: space-between; /* Mantém o texto à esquerda e os botões à direita */
+    align-items: center;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.link-item span {
+    font-size: 18px; /* Aumentado o tamanho da fonte */
+    flex-grow: 1; /* Garante que o texto ocupe o espaço disponível */
+}
+
+.link-item button {
+    font-size: 16px; /* Aumentado o tamanho da fonte */
+    padding: 10px 15px; /* Aumentado o padding */
+    margin-left: 10px; /* Espaçamento entre os botões */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.link-item button:nth-child(2) {
+    background-color: #0074D9;
+    color: white;
+}
+
+.link-item button:nth-child(3) {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.link-item button:hover {
+    opacity: 0.8;
+}
+
+/* Alerta de links offline */
+#offline-alert {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    padding: 15px 30px; /* Aumentado o padding */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: none; /* Inicialmente oculto */
+    font-size: 18px; /* Aumentado o tamanho da fonte */
+}
+
+.hidden {
+    display: none;
+}

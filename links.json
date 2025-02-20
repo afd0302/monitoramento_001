@@ -1,0 +1,194 @@
+[
+    {
+        "unidade": "Barueri - Total Links",
+        "empresa": "Transportes Luft ",
+        "ip": "8.8.50.50",
+        "latitude": "-23.508294",
+        "longitude": "-46.924549",
+        "status": "online"
+    },
+    {
+        "unidade": "Barueri - Algar",
+        "empresa": "Transportes Luft ",
+        "ip": "187.32.235.50",
+        "latitude": "-23.508294",
+        "longitude": "-46.924549",
+        "status": "online"
+    },
+    {
+        "unidade": "Alphaville - Link Claro",
+        "empresa": "Luft Logistcs",
+        "ip": "187.122.109.51 ",
+        "latitude": "-23.492722",
+        "longitude": "-46.849731",
+        "status": "online"
+    },
+    {
+        "unidade": "Alphaville - Link Vivo",
+        "empresa": "Luft Logistcs",
+        "ip": "192.168.15.2 ",
+        "latitude": "-23.492722",
+        "longitude": "-46.849731",
+        "status": "online"
+    },
+    {
+        "unidade": "Campo Novo - link VSNET",
+        "empresa": "Luft Logistcs",
+        "ip": "45.7.15.210",
+        "latitude": "-13.654763",
+        "longitude": "-57.894025",
+        "status": "online"
+    },
+    {
+        "unidade": "Luis Eduardo Magalh\u00e3es - BRD ",
+        "empresa": "Luft Logistcs",
+        "ip": "200.0.34.162",
+        "latitude": "-12.127970",
+        "longitude": "-45.812776",
+        "status": "online"
+    },
+    {
+        "unidade": "Luis Eduardo Magalh\u00e3es - Brasilnet",
+        "empresa": "Luft Logistcs",
+        "ip": "187.85.59.130",
+        "latitude": "-12.127970",
+        "longitude": "-45.812776",
+        "status": "online"
+    },
+    {
+        "unidade": "Sorriso - BRD",
+        "empresa": "Luft Logistcs",
+        "ip": "200.0.44.46",
+        "latitude": "-12.612657",
+        "longitude": "-55.761505",
+        "status": "online"
+    },
+    {
+        "unidade": "Sorriso - LCI",
+        "empresa": "Luft Logistcs",
+        "ip": "189.113.118.90",
+        "latitude": "-12.612657",
+        "longitude": "-55.761505",
+        "status": "online"
+    },
+    {
+        "unidade": "Cuiab\u00e1 - TIT\u00e2NIA",
+        "empresa": "Luft Logistcs",
+        "ip": "177.67.197.58",
+        "latitude": "-15.682068",
+        "longitude": "-55.928425",
+        "status": "online"
+    },
+    {
+        "unidade": "Cuiab\u00e1 - OI",
+        "empresa": "Luft Logistcs",
+        "ip": "201.14.117.234",
+        "latitude": "-15.682068",
+        "longitude": "-55.928425",
+        "status": "online"
+    },
+    {
+        "unidade": "Ibipor\u00e3 - SERCOMTEL",
+        "empresa": "Luft Logistcs",
+        "ip": "200.155.57.57",
+        "latitude": "-23.223718",
+        "longitude": "-51.055685",
+        "status": "offline"
+    },
+    {
+        "unidade": "Ibipor\u00e3 - LIGGA",
+        "empresa": "Luft Logistcs",
+        "ip": "187.95.123.213",
+        "latitude": "-23.223718",
+        "longitude": "-51.055685",
+        "status": "online"
+    },
+    {
+        "unidade": "Goi\u00e2nia - AVATO",
+        "empresa": "Luft Logistcs",
+        "ip": "186.226.68.146",
+        "latitude": "-16.825020",
+        "longitude": "-49.227003",
+        "status": "online"
+    },
+    {
+        "unidade": "Goi\u00e2nia - EMBRATEL",
+        "empresa": "Luft Logistcs",
+        "ip": "200.178.96.19",
+        "latitude": "-16.825020",
+        "longitude": "-49.227003",
+        "status": "online"
+    },
+    {
+        "unidade": "Cuiab\u00e1 - ULTRATURBO",
+        "empresa": "Luft Logistcs",
+        "ip": "45.189.42.87",
+        "latitude": "-15.682068",
+        "longitude": "-55.928425",
+        "status": "online"
+    },
+    {
+        "unidade": "Carazinho - ALGAR",
+        "empresa": "Luft Logistcs",
+        "ip": "177.69.122.234",
+        "latitude": "-28.292119",
+        "longitude": "-52.753333",
+        "status": "online"
+    },
+    {
+        "unidade": "Cararazinho - OI",
+        "empresa": "Luft Logistcs",
+        "ip": "187.4.52.250",
+        "latitude": "-28.292119",
+        "longitude": "-52.753333",
+        "status": "online"
+    },
+    {
+        "unidade": "Quer\u00eancia - OI",
+        "empresa": "Luft Logistcs",
+        "ip": "201.15.99.106",
+        "latitude": "-12.609666",
+        "longitude": "-52.150254",
+        "status": "online"
+    },
+    {
+        "unidade": "Quer\u00eancia - ATIVA",
+        "empresa": "Luft Logistcs",
+        "ip": "45.236.214.90",
+        "latitude": "-12.609666",
+        "longitude": "-52.150254",
+        "status": "online"
+    },
+    {
+        "unidade": "Araguaina - ARANET",
+        "empresa": "Luft Logistcs",
+        "ip": "177.54.224.31",
+        "latitude": "-7.195765",
+        "longitude": "-48.259721",
+        "status": "online"
+    },
+    {
+        "unidade": "Marab\u00e1 - FIBRALINK",
+        "empresa": "Luft Logistcs",
+        "ip": "131.255.227.171",
+        "latitude": "-5.367124",
+        "longitude": "-49.123097",
+        "status": "online"
+    },
+    {
+        "unidade": "Marab\u00e1 - SKYNET",
+        "empresa": "Luft Logistcs",
+        "ip": "177.124.91.6",
+        "latitude": "-5.367124",
+        "longitude": "-49.123097",
+        "status": "online"
+    },
+    {
+        "unidade": "Belford Roxo - OI",
+        "empresa": "Luft Logistcs",
+        "ip": "200.216.61.66",
+        "latitude": "-22.770133",
+        "longitude": "-43.399106",
+        "status": "offline"
+    }
+]

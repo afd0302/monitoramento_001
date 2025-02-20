@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoramento de Links</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Faixa azul no topo -->
+    <header class="header">
+        <h1>Monitoramento de Links LUFT LOGISTICS</h1>
+    </header>
+
+    <div id="container">
+        <!-- Alerta de links offline -->
+        <div id="offline-alert" class="hidden">
+            <span id="offline-message"></span>
+        </div>
+
+        <!-- Mapa -->
+        <div id="map"></div>
+
+        <!-- Botão Cadastrar Link -->
+        <button id="btn-cadastrar">Cadastrar Link</button>
+
+        <!-- Popup para cadastro -->
+        <div id="popup" class="hidden">
+            <h2>Cadastrar Link</h2>
+            <form id="form-cadastro">
+                <label for="unidade">Unidade:</label>
+                <input type="text" id="unidade" name="unidade" required>
+                
+                <label for="empresa">Empresa:</label>
+                <input type="text" id="empresa" name="empresa" required>
+                
+                <label for="ip">IP:</label>
+                <input type="text" id="ip" name="ip" required>
+                
+                <label for="latitude">Latitude:</label>
+                <input type="text" id="latitude" name="latitude" required>
+                
+                <label for="longitude">Longitude:</label>
+                <input type="text" id="longitude" name="longitude" required>
+                
+                <button type="submit">Salvar</button>
+                <button type="button" id="btn-cancelar">Cancelar</button>
+            </form>
+        </div>
+
+        <!-- Lista de links -->
+        <div id="lista-links"></div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
